@@ -15,6 +15,7 @@
 		39F2596D1BA1216C0092DAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F2596C1BA1216C0092DAE4 /* Images.xcassets */; };
 		39F259701BA1216C0092DAE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F2596E1BA1216C0092DAE4 /* LaunchScreen.xib */; };
 		39F2597C1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F2597B1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m */; };
+		39F259871BA123D60092DAE4 /* ConstraintsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F259861BA123D60092DAE4 /* ConstraintsHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		39F259751BA1216C0092DAE4 /* AspectRatioConstraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectRatioConstraintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F2597A1BA1216C0092DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F2597B1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectRatioConstraintsTests.m; sourceTree = "<group>"; };
+		39F259851BA123D60092DAE4 /* ConstraintsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintsHelper.h; sourceTree = "<group>"; };
+		39F259861BA123D60092DAE4 /* ConstraintsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintsHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				39F259611BA1216C0092DAE4 /* AppDelegate.m */,
 				39F259661BA1216C0092DAE4 /* ViewController.h */,
 				39F259671BA1216C0092DAE4 /* ViewController.m */,
+				39F259851BA123D60092DAE4 /* ConstraintsHelper.h */,
+				39F259861BA123D60092DAE4 /* ConstraintsHelper.m */,
 				39F259691BA1216C0092DAE4 /* Main.storyboard */,
 				39F2596C1BA1216C0092DAE4 /* Images.xcassets */,
 				39F2596E1BA1216C0092DAE4 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				39F259621BA1216C0092DAE4 /* AppDelegate.m in Sources */,
 				39F2595F1BA1216C0092DAE4 /* main.m in Sources */,
 				39F259681BA1216C0092DAE4 /* ViewController.m in Sources */,
+				39F259871BA123D60092DAE4 /* ConstraintsHelper.m in Sources */,
 				39F259651BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
