@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F2595F1BA1216C0092DAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F2595E1BA1216C0092DAE4 /* main.m */; };
+		39F259621BA1216C0092DAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F259611BA1216C0092DAE4 /* AppDelegate.m */; };
+		39F259651BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39F259631BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodeld */; };
+		39F259681BA1216C0092DAE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F259671BA1216C0092DAE4 /* ViewController.m */; };
+		39F2596B1BA1216C0092DAE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F259691BA1216C0092DAE4 /* Main.storyboard */; };
+		39F2596D1BA1216C0092DAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F2596C1BA1216C0092DAE4 /* Images.xcassets */; };
+		39F259701BA1216C0092DAE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F2596E1BA1216C0092DAE4 /* LaunchScreen.xib */; };
+		39F2597C1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F2597B1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39F259761BA1216C0092DAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F259511BA1216C0092DAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F259581BA1216C0092DAE4;
+			remoteInfo = AspectRatioConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39F259591BA1216C0092DAE4 /* AspectRatioConstraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspectRatioConstraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F2595D1BA1216C0092DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F2595E1BA1216C0092DAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39F259601BA1216C0092DAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39F259611BA1216C0092DAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39F259641BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AspectRatioConstraints.xcdatamodel; sourceTree = "<group>"; };
+		39F259661BA1216C0092DAE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39F259671BA1216C0092DAE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39F2596A1BA1216C0092DAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39F2596C1BA1216C0092DAE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39F2596F1BA1216C0092DAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		39F259751BA1216C0092DAE4 /* AspectRatioConstraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectRatioConstraintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F2597A1BA1216C0092DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39F2597B1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectRatioConstraintsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F259561BA1216C0092DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F259721BA1216C0092DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39F259501BA1216C0092DAE4 = {
+			isa = PBXGroup;
+			children = (
+				39F2595B1BA1216C0092DAE4 /* AspectRatioConstraints */,
+				39F259781BA1216C0092DAE4 /* AspectRatioConstraintsTests */,
+				39F2595A1BA1216C0092DAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F2595A1BA1216C0092DAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F259591BA1216C0092DAE4 /* AspectRatioConstraints.app */,
+				39F259751BA1216C0092DAE4 /* AspectRatioConstraintsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F2595B1BA1216C0092DAE4 /* AspectRatioConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				39F259601BA1216C0092DAE4 /* AppDelegate.h */,
+				39F259611BA1216C0092DAE4 /* AppDelegate.m */,
+				39F259661BA1216C0092DAE4 /* ViewController.h */,
+				39F259671BA1216C0092DAE4 /* ViewController.m */,
+				39F259691BA1216C0092DAE4 /* Main.storyboard */,
+				39F2596C1BA1216C0092DAE4 /* Images.xcassets */,
+				39F2596E1BA1216C0092DAE4 /* LaunchScreen.xib */,
+				39F259631BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodeld */,
+				39F2595C1BA1216C0092DAE4 /* Supporting Files */,
+			);
+			path = AspectRatioConstraints;
+			sourceTree = "<group>";
+		};
+		39F2595C1BA1216C0092DAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F2595D1BA1216C0092DAE4 /* Info.plist */,
+				39F2595E1BA1216C0092DAE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39F259781BA1216C0092DAE4 /* AspectRatioConstraintsTests */ = {
+			isa = PBXGroup;
+			children = (
+				39F2597B1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m */,
+				39F259791BA1216C0092DAE4 /* Supporting Files */,
+			);
+			path = AspectRatioConstraintsTests;
+			sourceTree = "<group>";
+		};
+		39F259791BA1216C0092DAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F2597A1BA1216C0092DAE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F259581BA1216C0092DAE4 /* AspectRatioConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F2597F1BA1216C0092DAE4 /* Build configuration list for PBXNativeTarget "AspectRatioConstraints" */;
+			buildPhases = (
+				39F259551BA1216C0092DAE4 /* Sources */,
+				39F259561BA1216C0092DAE4 /* Frameworks */,
+				39F259571BA1216C0092DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AspectRatioConstraints;
+			productName = AspectRatioConstraints;
+			productReference = 39F259591BA1216C0092DAE4 /* AspectRatioConstraints.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39F259741BA1216C0092DAE4 /* AspectRatioConstraintsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F259821BA1216C0092DAE4 /* Build configuration list for PBXNativeTarget "AspectRatioConstraintsTests" */;
+			buildPhases = (
+				39F259711BA1216C0092DAE4 /* Sources */,
+				39F259721BA1216C0092DAE4 /* Frameworks */,
+				39F259731BA1216C0092DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F259771BA1216C0092DAE4 /* PBXTargetDependency */,
+			);
+			name = AspectRatioConstraintsTests;
+			productName = AspectRatioConstraintsTests;
+			productReference = 39F259751BA1216C0092DAE4 /* AspectRatioConstraintsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F259511BA1216C0092DAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Adusa;
+				TargetAttributes = {
+					39F259581BA1216C0092DAE4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					39F259741BA1216C0092DAE4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 39F259581BA1216C0092DAE4;
+					};
+				};
+			};
+			buildConfigurationList = 39F259541BA1216C0092DAE4 /* Build configuration list for PBXProject "AspectRatioConstraints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39F259501BA1216C0092DAE4;
+			productRefGroup = 39F2595A1BA1216C0092DAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F259581BA1216C0092DAE4 /* AspectRatioConstraints */,
+				39F259741BA1216C0092DAE4 /* AspectRatioConstraintsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F259571BA1216C0092DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F2596B1BA1216C0092DAE4 /* Main.storyboard in Resources */,
+				39F259701BA1216C0092DAE4 /* LaunchScreen.xib in Resources */,
+				39F2596D1BA1216C0092DAE4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F259731BA1216C0092DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F259551BA1216C0092DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F259621BA1216C0092DAE4 /* AppDelegate.m in Sources */,
+				39F2595F1BA1216C0092DAE4 /* main.m in Sources */,
+				39F259681BA1216C0092DAE4 /* ViewController.m in Sources */,
+				39F259651BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F259711BA1216C0092DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F2597C1BA1216C0092DAE4 /* AspectRatioConstraintsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F259771BA1216C0092DAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F259581BA1216C0092DAE4 /* AspectRatioConstraints */;
+			targetProxy = 39F259761BA1216C0092DAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39F259691BA1216C0092DAE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F2596A1BA1216C0092DAE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39F2596E1BA1216C0092DAE4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F2596F1BA1216C0092DAE4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39F2597D1BA1216C0092DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39F2597E1BA1216C0092DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F259801BA1216C0092DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AspectRatioConstraints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39F259811BA1216C0092DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AspectRatioConstraints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39F259831BA1216C0092DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AspectRatioConstraintsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspectRatioConstraints.app/AspectRatioConstraints";
+			};
+			name = Debug;
+		};
+		39F259841BA1216C0092DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AspectRatioConstraintsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspectRatioConstraints.app/AspectRatioConstraints";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F259541BA1216C0092DAE4 /* Build configuration list for PBXProject "AspectRatioConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F2597D1BA1216C0092DAE4 /* Debug */,
+				39F2597E1BA1216C0092DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F2597F1BA1216C0092DAE4 /* Build configuration list for PBXNativeTarget "AspectRatioConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F259801BA1216C0092DAE4 /* Debug */,
+				39F259811BA1216C0092DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39F259821BA1216C0092DAE4 /* Build configuration list for PBXNativeTarget "AspectRatioConstraintsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F259831BA1216C0092DAE4 /* Debug */,
+				39F259841BA1216C0092DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39F259631BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39F259641BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodel */,
+			);
+			currentVersion = 39F259641BA1216C0092DAE4 /* AspectRatioConstraints.xcdatamodel */;
+			path = AspectRatioConstraints.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39F259511BA1216C0092DAE4 /* Project object */;
+}
